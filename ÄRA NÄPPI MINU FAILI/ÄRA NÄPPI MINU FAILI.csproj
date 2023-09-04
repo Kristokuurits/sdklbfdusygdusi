@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>ÄRA_NÄPPI_MINU_FAILI</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\opilane\Desktop\Course.cs" Link="Course.cs" />
+    <Compile Include="C:\Users\opilane\Desktop\DbInitializer.cs" Link="DbInitializer.cs" />
+    <Compile Include="C:\Users\opilane\Desktop\Enrollment.cs" Link="Enrollment.cs" />
+    <Compile Include="C:\Users\opilane\Desktop\HomeController.cs" Link="HomeController.cs" />
+    <Compile Include="C:\Users\opilane\Desktop\HomeController1.cs" Link="HomeController1.cs" />
+    <Compile Include="C:\Users\opilane\Desktop\Program.cs" Link="Program.cs" />
+    <Compile Include="C:\Users\opilane\Desktop\SchoolContext.cs" Link="SchoolContext.cs" />
+    <Compile Include="C:\Users\opilane\Desktop\Student.cs" Link="Student.cs" />
+    <Compile Include="C:\Users\opilane\Downloads\Enrollment.cs" Link="Enrollment.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="C:\Users\opilane\Desktop\appsettings.Development.json" Link="appsettings.Development.json" />
+    <Content Include="C:\Users\opilane\Desktop\appsettings.json" Link="appsettings.json" />
+    <Content Include="C:\Users\opilane\Desktop\Index.cshtml" Link="Index.cshtml" />
+    <Content Include="C:\Users\opilane\Desktop\_Layout.cshtml" Link="_Layout.cshtml" />
+    <Content Include="C:\Users\opilane\TARPE22\appsettings.Development.json" Link="appsettings.Development.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Students\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.21" />
+  </ItemGroup>
+
+</Project>
